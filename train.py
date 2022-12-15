@@ -8,7 +8,7 @@ from data import Therin
 from datetime import datetime
 from detector.fasterRCNN import FasterRCNN
 from backbone.densenet import DenseNet
-from engine import *
+from utils.engine import *
 from torchvision.models.detection.backbone_utils import resnet_fpn_backbone, _resnet_fpn_extractor
 from torchvision.models.detection import fasterrcnn_resnet50_fpn, FasterRCNN_ResNet50_FPN_V2_Weights
 
