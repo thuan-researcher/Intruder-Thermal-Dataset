@@ -1,5 +1,5 @@
-# Intruder-Thermal-Dataset
-Evaluation experiments on thermal imaging dataset for intruder detection task. 
+# TIDI: Thermal Imaging Dataset for Intruder Detection
+The TIDI dataset is available [here](https://drive.google.com/drive/folders/1mKGz5UIfmyfZUR8PU6u9HgQ33Dd7dqsn?usp=share_link). Please refer to our paper for more details.
 
 ## Installation
 ### Clone this repo or download source code
@@ -13,6 +13,7 @@ pip install requirements.txt
 
 ## Data
 ### Data description
+Each image in the dataset is compounded by an object image and a background using Poison image editing method (see `./PIE`).
 The dataset folder `./dataset` consists of two sub sets `Sync_train_img` and `Sync_test_img`:
 - `Sync_train_img`: 10,000 images under `.BMP` format, each image contain only one object.
 - `Sync_test_img`: 2,500 images under `.BMP` format, each image contain only one object.
