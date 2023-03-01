@@ -1,5 +1,5 @@
 # TIDI: Thermal Imaging Dataset for Intruder Detection
-The TIDI dataset is available [here](https://drive.google.com/drive/folders/1mKGz5UIfmyfZUR8PU6u9HgQ33Dd7dqsn?usp=share_link). Please refer to our paper for more details.
+[The TIDI dataset is available here](https://drive.google.com/drive/folders/1mKGz5UIfmyfZUR8PU6u9HgQ33Dd7dqsn?usp=share_link). Please refer to our paper for more details.
 
 ## Installation
 ### Clone this repo or download source code
