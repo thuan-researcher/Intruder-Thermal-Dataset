@@ -1,5 +1,5 @@
-# TIDI: Thermal Imaging Dataset for Intruder Detection
-[The TIDI dataset is available here](https://drive.google.com/drive/folders/1mKGz5UIfmyfZUR8PU6u9HgQ33Dd7dqsn?usp=share_link). Please refer to our paper for more details: https://arxiv.org/abs/2302.13293
+# PDIWS: Thermal Imaging Dataset for Person Detection in Intrusion Warning Systems
+[The PDIWS dataset is available here](https://drive.google.com/drive/folders/1mKGz5UIfmyfZUR8PU6u9HgQ33Dd7dqsn?usp=share_link). Please refer to our paper for more details: https://ieeexplore.ieee.org/document/10208055 or https://arxiv.org/abs/2302.13293 (preprint).
 
 ## Installation
 ### Clone this repo or download source code
@@ -13,12 +13,12 @@ pip install requirements.txt
 
 ## Data
 ### Data description
-Each image in the dataset is compounded by an object image and a background using Poison image editing method (see `./PIE`).
-The dataset folder `./dataset` consists of two sub sets `Sync_train_img` and `Sync_test_img`:
-- `Sync_train_img`: 10,000 images under `.BMP` format, each image contain only one object.
-- `Sync_test_img`: 2,500 images under `.BMP` format, each image contain only one object.
+Each image in the dataset is compounded by an object image and a background using the Poison image editing method (see `./PIE`).
+The dataset folder `./dataset` consists of two subsets `train` and `test`:
+- `train`: 2,000 images under `.JPG` format, each image contains only one object.
+- `test`: 500 images under `.JPG` format, each image contains only one object.
 
-Labels for those images are stored in files `sync_train_anno.json` and `sync_test_anno.json`. Each contains a list of annotation directories following format as: 
+Labels for those images are stored in files `train.json` and `test.json`. Each contains a list of annotation directories following the format: 
 ```
 {"image_id": i, "bbox": [x, y, w, h], "class": c}
 ```
