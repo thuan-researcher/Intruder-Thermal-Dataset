@@ -1,5 +1,5 @@
 # PDIWS: Thermal Imaging Dataset for Person Detection in Intrusion Warning Systems
-[The PDIWS dataset is available here]([https://drive.google.com/drive/folders/1mKGz5UIfmyfZUR8PU6u9HgQ33Dd7dqsn?usp=share_link](https://ieee-dataport.org/documents/pdiws)). Please refer to our paper for more details: https://ieeexplore.ieee.org/document/10208055 or https://arxiv.org/abs/2302.13293 (preprint).
+[The PDIWS dataset is available here](https://ieee-dataport.org/documents/pdiws). Please refer to our paper for more details: https://ieeexplore.ieee.org/document/10208055 or https://arxiv.org/abs/2302.13293 (preprint).
 
 ## Installation
 ### Clone this repo or download source code
