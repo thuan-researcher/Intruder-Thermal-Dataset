@@ -10,11 +10,12 @@ git clone https://github.com/thuan-researcher/Intruder-Thermal-Dataset.git
 ``` 
 pip install requirements.txt
 ```
+### Download dataset and move it to the folder `Intruder-Thermal-Dataset`.
 
 ## Data
 ### Data description
 Each image in the dataset is compounded by an object image and a background using the Poison image editing method (see `./PIE`).
-The dataset folder `./dataset` consists of two subsets `train` and `test`:
+The dataset consists of two subsets `train` and `test`:
 - `train`: 2,000 images under `.JPG` format, each image contains only one object.
 - `test`: 500 images under `.JPG` format, each image contains only one object.
 
